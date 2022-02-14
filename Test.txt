@@ -1,0 +1,8 @@
+digraph G{
+  rankdir=LR;
+    node [shape=record];
+    node1 [ label ="<f0>5 | <f1>"];
+    node2 [ label ="<f0>1 3 5 3 | <f1>"];
+    node3[ label ="<f0>null"];
+"node1":f1 -> "node2":f0;"node2":f1 -> "node3":f0;
+}

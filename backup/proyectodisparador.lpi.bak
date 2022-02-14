@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="/"/>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="proyectodisparador.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ProyectoDisparador"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formdisparador.pas"/>
+        <ComponentName Value="Form1"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormDisparador"/>
+        <CursorPos X="30" Y="85"/>
+        <TopLine Value="70"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../../../../../usr/lib/lazarus/lcl/include/picture.inc"/>
+        <CursorPos X="6" Y="360"/>
+        <TopLine Value="345"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="15" Column="24" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="16" Column="22" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="17" Column="23" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="18" Column="23" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="19" Column="23" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="20" Column="23" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="21" Column="23" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="22" Column="23" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="21" Column="22" TopLine="1"/>
+      </Position9>
+      <Position10>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="23" Column="46" TopLine="12"/>
+      </Position10>
+      <Position11>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="24" Column="5" TopLine="17"/>
+      </Position11>
+      <Position12>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="45" Column="22" TopLine="23"/>
+      </Position12>
+      <Position13>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="24" Column="45" TopLine="23"/>
+      </Position13>
+      <Position14>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="68" Column="40" TopLine="52"/>
+      </Position14>
+      <Position15>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="23" Column="20" TopLine="9"/>
+      </Position15>
+      <Position16>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="82" Column="31" TopLine="60"/>
+      </Position16>
+      <Position17>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="26" Column="45" TopLine="25"/>
+      </Position17>
+      <Position18>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="91" Column="7" TopLine="66"/>
+      </Position18>
+      <Position19>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="43" Column="11" TopLine="31"/>
+      </Position19>
+      <Position20>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="74" Column="15" TopLine="64"/>
+      </Position20>
+      <Position21>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="85" Column="4" TopLine="66"/>
+      </Position21>
+      <Position22>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="66" Column="1" TopLine="51"/>
+      </Position22>
+      <Position23>
+        <Filename Value="formdisparador.pas"/>
+        <Caret Line="85" Column="41" TopLine="70"/>
+      </Position23>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)/"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

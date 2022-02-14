@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="proyectografos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="41" Y="10"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formgrafos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="32" Y="9"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="grafosla.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GrafosLA"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="388"/>
+        <CursorPos Y="422"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="listaspunteros.pas"/>
+        <UnitName Value="Listaspunteros"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="8"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="TAD_listas_punteros.pas"/>
+        <EditorIndex Value="7"/>
+        <CursorPos Y="91"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="pilaspunteros.pas"/>
+        <UnitName Value="Pilaspunteros"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="31" Y="8"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="colacursores.pas"/>
+        <UnitName Value="Colacursores"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="13"/>
+        <CursorPos X="102" Y="24"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="TAD_tipos.pas"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="2" Y="17"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="grafosma.pas"/>
+        <UnitName Value="GrafosMA"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="16"/>
+        <CursorPos Y="33"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../implementaciones/arbolm_hei_hd.pas"/>
+        <UnitName Value="Arbolm_hei_hd"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="28" HistoryIndex="27">
+      <Position1>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="349" TopLine="327"/>
+      </Position1>
+      <Position2>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="350" TopLine="327"/>
+      </Position2>
+      <Position3>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="351" TopLine="327"/>
+      </Position3>
+      <Position4>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="352" TopLine="327"/>
+      </Position4>
+      <Position5>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="353" TopLine="327"/>
+      </Position5>
+      <Position6>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="346" TopLine="327"/>
+      </Position6>
+      <Position7>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="347" TopLine="327"/>
+      </Position7>
+      <Position8>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="346" TopLine="327"/>
+      </Position8>
+      <Position9>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="347" TopLine="327"/>
+      </Position9>
+      <Position10>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="346" TopLine="327"/>
+      </Position10>
+      <Position11>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="340" TopLine="327"/>
+      </Position11>
+      <Position12>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="342" TopLine="327"/>
+      </Position12>
+      <Position13>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="343" TopLine="327"/>
+      </Position13>
+      <Position14>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="344" TopLine="327"/>
+      </Position14>
+      <Position15>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="346" TopLine="327"/>
+      </Position15>
+      <Position16>
+        <Filename Value="grafosma.pas"/>
+        <Caret Line="347" Column="28" TopLine="327"/>
+      </Position16>
+      <Position17>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="415" Column="3" TopLine="387"/>
+      </Position17>
+      <Position18>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="258" Column="4" TopLine="241"/>
+      </Position18>
+      <Position19>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="262" Column="32" TopLine="245"/>
+      </Position19>
+      <Position20>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="264" Column="3" TopLine="243"/>
+      </Position20>
+      <Position21>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="292" Column="36" TopLine="275"/>
+      </Position21>
+      <Position22>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="294" Column="49" TopLine="277"/>
+      </Position22>
+      <Position23>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="295" Column="62" TopLine="278"/>
+      </Position23>
+      <Position24>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="308" Column="8" TopLine="297"/>
+      </Position24>
+      <Position25>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="310" Column="19" TopLine="292"/>
+      </Position25>
+      <Position26>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="310" Column="30" TopLine="292"/>
+      </Position26>
+      <Position27>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="411" Column="63" TopLine="366"/>
+      </Position27>
+      <Position28>
+        <Filename Value="grafosla.pas"/>
+        <Caret Line="337" TopLine="294"/>
+      </Position28>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

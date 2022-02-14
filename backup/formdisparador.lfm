@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 345
+  Height = 445
+  Top = 227
+  Width = 738
+  Caption = 'Testeador de Implementaciones ...'
+  ClientHeight = 445
+  ClientWidth = 738
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 80
+    Height = 90
+    Top = 256
+    Width = 610
+  end
+  object Button1: TButton
+    Left = 116
+    Height = 52
+    Top = 44
+    Width = 164
+    Caption = 'Listas'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 52
+    Top = 44
+    Width = 164
+    Caption = 'Pilas'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 472
+    Height = 52
+    Top = 44
+    Width = 164
+    Caption = 'Colas'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 116
+    Height = 52
+    Top = 112
+    Width = 164
+    Caption = 'Arboles Binarios'
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 296
+    Height = 52
+    Top = 112
+    Width = 164
+    Caption = 'Arboles m-arios'
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 472
+    Height = 52
+    Top = 112
+    Width = 164
+    Caption = 'Grafos'
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 216
+    Height = 52
+    Top = 200
+    Width = 328
+    Caption = 'Salir de la Aplicación'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+end

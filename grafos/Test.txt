@@ -1,0 +1,9 @@
+digraph G{
+"1"
+"2"
+"3"
+"4"
+"1"->"2"[label="vinculo"]
+"1"->"3"[label="vinculo"]
+"1"->"4"[label="vinculo"]
+}

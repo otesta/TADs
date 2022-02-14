@@ -1,0 +1,125 @@
+object Form1: TForm1
+  Left = 424
+  Height = 366
+  Top = 202
+  Width = 903
+  ActiveControl = vstring
+  Caption = 'Testeo de Listas ...'
+  ClientHeight = 366
+  ClientWidth = 903
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Label4: TLabel
+    Left = 16
+    Height = 18
+    Top = 208
+    Width = 34
+    Caption = 'Lista: '
+    ParentColor = False
+  end
+  object Image1: TImage
+    Left = 44
+    Height = 109
+    Top = 240
+    Width = 828
+    Stretch = True
+    Transparent = True
+  end
+  object GroupBox1: TGroupBox
+    Left = 224
+    Height = 168
+    Top = 24
+    Width = 456
+    Caption = 'Carga de Datos: '
+    ClientHeight = 149
+    ClientWidth = 454
+    TabOrder = 0
+    OnClick = GroupBox1Click
+    object Label1: TLabel
+      Left = 38
+      Height = 18
+      Top = 23
+      Width = 76
+      Caption = 'Valor String: '
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 34
+      Height = 18
+      Top = 53
+      Width = 80
+      Caption = 'Valor Entero: '
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 63
+      Height = 18
+      Top = 79
+      Width = 53
+      Caption = 'Posición:'
+      ParentColor = False
+    end
+    object vstring: TEdit
+      Left = 126
+      Height = 24
+      Top = 18
+      Width = 312
+      TabOrder = 0
+    end
+    object ventero: TMaskEdit
+      Left = 126
+      Height = 24
+      Top = 48
+      Width = 112
+      CharCase = ecNormal
+      MaxLength = 0
+      TabOrder = 1
+      SpaceChar = '_'
+    end
+    object btn_insertar_posicion: TButton
+      Left = 198
+      Height = 25
+      Top = 111
+      Width = 152
+      Caption = 'Insertar en Posición'
+      OnClick = btn_insertar_posicionClick
+      TabOrder = 2
+    end
+    object posicion: TMaskEdit
+      Left = 126
+      Height = 24
+      Top = 74
+      Width = 80
+      CharCase = ecNormal
+      MaxLength = 0
+      TabOrder = 3
+      SpaceChar = '_'
+    end
+    object btn_agregar: TButton
+      Left = 363
+      Height = 25
+      Top = 111
+      Width = 75
+      Caption = 'Agregar'
+      OnClick = btn_agregarClick
+      TabOrder = 4
+    end
+    object btn_mostrar_grafico: TButton
+      Left = 14
+      Height = 25
+      Top = 111
+      Width = 176
+      Caption = 'Mostrar Gráfico de Lista'
+      OnClick = btn_mostrar_graficoClick
+      TabOrder = 5
+    end
+  end
+  object estado_lista: TEdit
+    Left = 56
+    Height = 24
+    Top = 207
+    Width = 832
+    Enabled = False
+    TabOrder = 1
+  end
+end

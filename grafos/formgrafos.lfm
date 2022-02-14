@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 352
+  Height = 673
+  Top = 125
+  Width = 1108
+  Caption = 'Testeo Grafos ...'
+  ClientHeight = 673
+  ClientWidth = 1108
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Label1: TLabel
+    Left = 99
+    Height = 18
+    Top = 64
+    Width = 47
+    Caption = 'Vértice: '
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object vertice: TEdit
+    Left = 162
+    Height = 24
+    Top = 61
+    Width = 144
+    TabOrder = 0
+  end
+  object addVertice: TButton
+    Left = 320
+    Height = 25
+    Top = 61
+    Width = 136
+    Caption = 'Agregar Vértice'
+    OnClick = addVerticeClick
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 18
+    Top = 120
+    Width = 53
+    Caption = 'V. desde:'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+  object vdesde: TEdit
+    Left = 128
+    Height = 24
+    Top = 120
+    Width = 144
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 288
+    Height = 18
+    Top = 120
+    Width = 50
+    Caption = 'V. hasta:'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+  object vhasta: TEdit
+    Left = 352
+    Height = 24
+    Top = 120
+    Width = 144
+    TabOrder = 3
+  end
+  object addArco: TButton
+    Left = 512
+    Height = 25
+    Top = 119
+    Width = 144
+    Caption = 'Agregar Arco'
+    OnClick = addArcoClick
+    TabOrder = 4
+  end
+  object Image1: TImage
+    Left = 24
+    Height = 496
+    Top = 152
+    Width = 1072
+  end
+  object graficar: TButton
+    Left = 841
+    Height = 25
+    Top = 71
+    Width = 75
+    Caption = 'Graficar'
+    OnClick = graficarClick
+    TabOrder = 5
+  end
+end
